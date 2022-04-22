@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class MayoriaDeEdad : MonoBehaviour
 {
-    int edadUsuario;
+    public int edadUsuario;
 
     void Start()
     {
-        edadUsuario = 16;
-
         if(edadUsuario >= 18)
         {
             Debug.Log("Es mayor de edad");
